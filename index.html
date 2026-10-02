@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tumble Chick</title>
+<meta name="description" content="Tumble Chick: dünyayı döndür, civcivi portala ulaştır. 200 el yapımı yerçekimi bulmacası.">
+<link rel="icon" href="img/icon.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<meta property="og:title" content="Tumble Chick">
+<meta property="og:description" content="Rotate the world, guide the chick to the portal. 200 hand-crafted gravity puzzles.">
+<meta property="og:image" content="https://burakkarakoy.github.io/img/icon.png">
+<meta property="og:url" content="https://burakkarakoy.github.io/">
+<link rel="canonical" href="https://burakkarakoy.github.io/">
+<meta name="apple-itunes-app" content="app-id=6813955458">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;700&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --sky-top: #5CC6FF; --sky-bottom: #DDF6FF; --ink: #2B1E3A; --muted: #5B4E6B;
+    --yellow: #FFC93C; --green: #5FC844; --card: #FFF8EC; --pink: #FF9EC7;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; font-family: "Nunito", system-ui, sans-serif; color: var(--ink);
+    background: linear-gradient(var(--sky-top), var(--sky-bottom) 70%, #CFF0D9);
+    min-height: 100vh;
+  }
+  main { max-width: 960px; margin: 0 auto; padding: 48px 16px 32px; }
+  .hero { text-align: center; }
+  .icon { width: 128px; height: 128px; border-radius: 28px; box-shadow: 0 10px 30px rgba(43,30,58,.25); }
+  h1 {
+    font-family: "Fredoka", sans-serif; font-weight: 700; font-size: clamp(44px, 9vw, 76px);
+    margin: 18px 0 4px; color: var(--yellow); letter-spacing: 1px;
+    -webkit-text-stroke: 3px var(--ink); paint-order: stroke fill;
+  }
+  .tagline { font-size: 20px; color: var(--ink); margin: 0 auto 26px; max-width: 560px; }
+  .buttons { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+  .btn {
+    display: inline-flex; align-items: center; gap: 10px; text-decoration: none; font-weight: 700;
+    font-family: "Fredoka", sans-serif; font-size: 18px; padding: 14px 22px; border-radius: 16px;
+    border: 3px solid var(--ink); box-shadow: 0 5px 0 var(--ink);
+  }
+  .btn-primary { background: var(--green); color: #fff; }
+  .btn-soon { background: #E7E1D6; color: var(--muted); box-shadow: 0 5px 0 #9A8F80; border-color: #9A8F80; }
+  .shots { display: flex; gap: 16px; justify-content: center; margin: 44px 0 12px; flex-wrap: wrap; }
+  .shots img {
+    width: min(240px, 30%); min-width: 150px; border-radius: 22px;
+    border: 4px solid var(--ink); box-shadow: 0 10px 24px rgba(43,30,58,.2);
+  }
+  .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px; margin: 36px 0; }
+  .feature { background: var(--card); border: 3px solid var(--ink); border-radius: 20px; padding: 18px; }
+  .feature h3 { font-family: "Fredoka", sans-serif; margin: 0 0 6px; font-size: 19px; }
+  .feature p { margin: 0; color: var(--muted); }
+  footer { text-align: center; padding: 24px 16px 36px; color: var(--muted); font-size: 15px; }
+  footer a { color: var(--ink); font-weight: 700; margin: 0 8px; }
+</style>
+</head>
+<body>
+<main>
+  <section class="hero">
+    <img class="icon" src="img/icon.png" alt="Tumble Chick">
+    <h1>Tumble Chick</h1>
+    <p class="tagline" data-tr="Dünyayı döndür, civcivi portala ulaştır! 200 el yapımı yerçekimi bulmacası."
+       data-en="Rotate the world and guide the chick to the portal! 200 hand-crafted gravity puzzles.">
+      Dünyayı döndür, civcivi portala ulaştır! 200 el yapımı yerçekimi bulmacası.</p>
+    <div class="buttons">
+      <a class="btn btn-primary" href="https://apps.apple.com/app/id6813955458">App Store</a>
+      <span class="btn btn-soon" data-tr="Google Play · yakında" data-en="Google Play · coming soon">Google Play · yakında</span>
+    </div>
+  </section>
+
+  <section class="shots">
+    <img src="img/shot1.jpg" alt="">
+    <img src="img/shot2.jpg" alt="">
+    <img src="img/shot3.jpg" alt="">
+  </section>
+
+  <section class="features">
+    <div class="feature">
+      <h3 data-tr="4 dünya, 200 bölüm" data-en="4 worlds, 200 levels">4 dünya, 200 bölüm</h3>
+      <p data-tr="Çayır, kar, çöl ve uzay; her dünyanın kendi mekaniği var." data-en="Meadow, snow, desert and space, each with its own mechanic.">Çayır, kar, çöl ve uzay; her dünyanın kendi mekaniği var.</p>
+    </div>
+    <div class="feature">
+      <h3 data-tr="Her gün yeni bulmaca" data-en="A new puzzle every day">Her gün yeni bulmaca</h3>
+      <p data-tr="Herkese aynı, her zaman çözülebilir günlük bulmaca." data-en="The same solvable daily puzzle for everyone.">Herkese aynı, her zaman çözülebilir günlük bulmaca.</p>
+    </div>
+    <div class="feature">
+      <h3 data-tr="Süre yok, enerji yok" data-en="No timers, no energy">Süre yok, enerji yok</h3>
+      <p data-tr="Kendi hızında oyna; ipuçlarını oynayarak kazan." data-en="Play at your own pace and earn hints by playing.">Kendi hızında oyna; ipuçlarını oynayarak kazan.</p>
+    </div>
+  </section>
+</main>
+<footer>
+  <a href="https://burakkarakoy.github.io/tumblechick/privacy.html" data-tr="Gizlilik" data-en="Privacy">Gizlilik</a>
+  <a href="https://burakkarakoy.github.io/tumblechick/support.html" data-tr="Destek" data-en="Support">Destek</a>
+  <p>© 2026 Burak Karaköy</p>
+</footer>
+<script>
+  // Türkçe olmayan tarayıcılarda İngilizce göster
+  if (!(navigator.language || "").toLowerCase().startsWith("tr")) {
+    document.documentElement.lang = "en";
+    document.querySelectorAll("[data-en]").forEach(e => e.textContent = e.dataset.en);
+  }
+</script>
+</body>
+</html>

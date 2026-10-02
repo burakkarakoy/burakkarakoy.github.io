@@ -1,0 +1,2 @@
+# Tumble Chick - app-ads.txt
+# LevelPlay panelinde Setup > app-ads.txt bölümündeki satırları buraya yapıştır.

@@ -1,2 +1,1 @@
-# Tumble Chick - app-ads.txt
-# LevelPlay panelinde Setup > app-ads.txt bölümündeki satırları buraya yapıştır.
+google.com, pub-7535957885454245, DIRECT, f08c47fec0942fa0
